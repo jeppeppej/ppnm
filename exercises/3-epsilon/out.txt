@@ -1,0 +1,25 @@
+INT_MAX = 2147483647
+in a while-loop, my max int = 2147483647
+in a for-loop, my max int = 2147483647
+in a do-while-loop, my max int = 2147483647
+
+INT_MIN = -2147483648
+in a while-loop, my min int = -2147483648
+in a for-loop, my min int = -2147483648
+in a do-while-loop, my min int = -2147483648
+
+FLT_EPSILON = 1.19209e-07
+DBL_EPSILON = 2.22045e-16
+LDBL_EPSILON = 1.0842e-19
+
+in a while-loop, my machine epsilon for floats = 1.19209e-07
+in a for-loop, my machine epsilon for doubles = 2.22045e-16
+in a do-while-loop, my machine epsilon for long doubles = 1.0842e-19
+sum_up_float = 24.7105
+sum_down_float = 25.4037
+
+sum_up_double = 31.3716
+sum_down_float = 31.3716
+
+Are the numbers 12 and 60 equal with absolute precision tau=10 or relative precision epsilon=10?
+Yes.

@@ -2,10 +2,10 @@
 #include <limits.h>
 #include <float.h>
 
-int equals(double a, double b, double tau, double epsilon); //declaring function prototype
+int equal(double a, double b, double tau, double epsilon); //declaring function prototype
 
 int main(){
-	/*
+	
 	printf("INT_MAX = %i\n",INT_MAX);
 
 	int i=1;
@@ -82,7 +82,6 @@ int main(){
 		d += 1.0d/(max-i);
 	}
 	printf("sum_down_float = %g\n",d);
-	*/
 
 	double a = 12;
 	double b = 60;

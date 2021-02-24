@@ -8,11 +8,11 @@ default: out.txt    # default target is to make out.txt
 out.txt: math            # out.txt needs math
 	./math > out.txt # run math, output goes into out.txt
 
-math: math.o                           # math needs math.o
-	$(CC) -o math math.o $(LDLIBS) # link math.o into math
+#math: math.o                           # math needs math.o
+#	$(CC) -o math math.o $(LDLIBS) # link math.o into math
 
-math.o: math.c                   # math.o needs math.c
-	$(CC) $(CFLAGS) -c math.c # compile math.c
+#math.o: math.c                   # math.o needs math.c
+#	$(CC) $(CFLAGS) -c math.c # compile math.c
 
 .PHONEY: clean
 clean:                              # clean is a phoney target
