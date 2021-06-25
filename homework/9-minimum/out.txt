@@ -1,0 +1,35 @@
+A and B of minimizationA chosen test function f(x,y)=x^2+2x-1 has the minimum
+        -1 
+         0 
+
+which fits the expected. Steps used = 2
+
+Moving on to Rosenbrock's valley funktionen.
+ Minimum is:
+  0.999997 
+  0.999995 
+
+The expected value is (1,1) for a=1, b=100, so this is good enough. Initial guess was (x,y)=(1,0) and number of steps=2000
+
+Himmelblau's minimum:
+         3 
+         2 
+
+Which exactly is one of them. Initial guess: (x,y)=(3,0) - steps: 49 
+
+On to task B.
+
+Fitting to Berit Wigner, with initial guess:
+       122 
+      0.02 
+     0.001 
+
+The found  minimum on the form (mass,width,A) is
+   126.394 
+0.00977566 
+   1.79271 
+
+Found in 2000 steps
+CERN's value = 125.3(6), so not far off.
+A fit and CERN's data is plotted in the png-file.
+

@@ -1,0 +1,15 @@
+
+Just part A and B of the homework
+
+sqrt(x) chosen as integrand
+Plaine Monte Carlo: integral of sqrt(x) from 0 to 1 = 0.6666861893, error = 0.0007442960341
+Quasi-random method on same = 0.6666458624, error = 4.124894534e-05
+Exact: 2/3=0.66667 
+
+Evaluates the given difficult singular integral:
+With plain = 1.376261397, error = 0.02521147228
+With quasi-random = 1.382293352, error = 0.0002085638922
+Exact: 1.3932039296856768591842462603255
+
+Comparison of errors: see the two produced png-files containing plots.
+The errors of the quasi-random MC are significantly smaller than plain MC

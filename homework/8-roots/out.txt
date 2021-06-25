@@ -1,0 +1,15 @@
+
+
+Task A and B of roots.
+The simple function x^3 is used for debuggin.
+Its root = 3.47822e-05 which is within the tolerance being     0.0001
+
+On to the Rosenbrock function. Applying the algoritm to its gradient returns
+[         1] 
+[         1] 
+within the tolerance      0.001
+On to task B...
+The root of M(epsilon) is found via the algoritm to: 
+[ -0.500315] 
+within tolerance      0.001. The expected value is -1/2, so the rootfinding seems to be working.
+
